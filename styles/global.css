@@ -23,6 +23,16 @@
     --semantic-error: #DC2626;
 }
 
+::-webkit-scrollbar{
+    border-radius: 0 .5rem .5rem 0;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#f0d5c1;
+    border-radius: .5rem;
+}
+
 body{
     overflow: hidden;
 
@@ -37,4 +47,16 @@ h1, h2{
 img{
     max-width: 100%;
     height: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex-2{
+    flex: 2;
 }
